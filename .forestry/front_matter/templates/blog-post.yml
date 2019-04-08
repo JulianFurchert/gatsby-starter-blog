@@ -1,4 +1,15 @@
 ---
 label: Blog Post
 hide_body: true
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
+- type: color
+  name: color
+  config:
+    color_format: Hex
+  label: Color
+- type: list
+  name: list
+  label: List
